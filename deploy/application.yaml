@@ -2,7 +2,7 @@ apiVersion: di.io/v1
 kind: Application
 metadata:
   labels:
-    app.kubernetes.io/name: di-kubernetes-operator
+    app.kubernetes.io/name: application-sample
   name: application-sample
 spec:
   image: nginx:1.14.2
