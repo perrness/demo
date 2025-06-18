@@ -6,7 +6,7 @@ metadata:
   name: application-sample
   namespace: team-demo
 spec:
-  image: tempregistrydi.azurecr.io/controller:2033b1d07cd9bed4a4ce94b969e1178cb1bda9a1
+  image: tempregistrydi.azurecr.io/controller:c9a94719ddef2fe47ac72c22deb53045fb5ff4b7
   port: 8080
   replicas: 2
   resources:
