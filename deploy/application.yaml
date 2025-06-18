@@ -4,7 +4,15 @@ metadata:
   labels:
     app.kubernetes.io/name: application-sample
   name: application-sample
+  namespace: team-demo
 spec:
-  image: nginx:1.14.2
+  image: tempregistrydi.azurecr.io/controller:2033b1d07cd9bed4a4ce94b969e1178cb1bda9a1
   port: 8080
   replicas: 2
+  resources:
+    limits:
+      cpu: 200m
+      memory: 256Mi
+    requests:
+      cpu: 50m
+      memory: 64Mi
