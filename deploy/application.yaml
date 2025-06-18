@@ -1,0 +1,10 @@
+apiVersion: di.io/v1
+kind: Application
+metadata:
+  labels:
+    app.kubernetes.io/name: di-kubernetes-operator
+  name: application-sample
+spec:
+  image: nginx:1.14.2
+  port: 8080
+  replicas: 2
